@@ -1,0 +1,38 @@
+{
+  "name": "video-frames-api-nodejs",
+  "version": "0.0.1",
+  "description": "Video Frames API micro-service on on Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "mongoose": "^4.4.12",
+    "body-parser": "^1.12.4",
+    "coffee-script": "^1.10.0",
+    "cors": "^2.7.1",
+    "express": "^4.12.4",
+    "jade": "^1.11.0",
+    "morgan": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clickberry/video-frames-api-nodejs"
+  },
+  "keywords": [
+    "clickberry",
+    "webservices",
+    "node.js",
+    "video",
+    "frame",
+    "api"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/clickberry/video-frames-api-nodejs/issues"
+  }
+}
