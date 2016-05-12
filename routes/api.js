@@ -8,9 +8,12 @@ router.get('/heartbeat', function (req, res) {
 
 function mapFrame(frame) {
   return {
+    image: frame.uri,
     index: frame.frameIndex,
     tags: frame.tags,
-    image: frame.uri
+    text: frame.text,
+    logos: frame.logos,
+    faces: frame.faces
   };
 }
 

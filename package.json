@@ -1,6 +1,6 @@
 {
   "name": "video-frames-api-nodejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Video Frames API micro-service on on Node.js",
   "main": "index.js",
   "dependencies": {
