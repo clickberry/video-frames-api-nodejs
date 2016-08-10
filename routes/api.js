@@ -12,6 +12,7 @@ function mapFrame(frame) {
     image: frame.uri,
     segmentIndex: frame.segmentIndex,
     frameIndex: frame.frameIndex,
+    clarifai: frame.clarifai,
     tags: frame.tags,
     text: frame.text,
     logos: frame.logos,
